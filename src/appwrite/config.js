@@ -74,7 +74,7 @@ export class Service {
       );
     } catch (error) {
       console.log("Appwrite serive :: getPost :: error", error);
-      alert(error);
+
       return false;
     }
   }
@@ -90,7 +90,7 @@ export class Service {
       );
     } catch (error) {
       console.log("Appwrite serive :: getallPosts :: error", error);
-      alert(error);
+
       return false;
     }
   }
@@ -104,7 +104,7 @@ export class Service {
       );
     } catch (error) {
       console.log("Appwrite serive :: uploadFile :: error", error);
-      alert(error);
+
       return false;
     }
   }
